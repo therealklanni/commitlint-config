@@ -1,0 +1,29 @@
+{
+  "name": "@therealklanni/commitlint-config",
+  "version": "0.1.0",
+  "description": "Conventional commits with body (line) max-length of 72",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealklanni/commitlint-config.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlintconfig",
+    "commitlint-config"
+  ],
+  "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/therealklanni/commitlint-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9"
+  }
+}
