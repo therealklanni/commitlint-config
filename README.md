@@ -12,7 +12,7 @@ In your `commitlint.config.js` update the `extends` field:
 
 ```js
 module.exports = {
-  extends: ['@therealklanni]
+  extends: ['@therealklanni']
 }
 ```
 
