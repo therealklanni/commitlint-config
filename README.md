@@ -15,3 +15,15 @@ module.exports = {
   extends: ['@therealklanni]
 }
 ```
+
+In your `package.json` add your [husky](https://github.com/typicode/husky) hook:
+
+```json
+{
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }  
+  }
+}
+```
